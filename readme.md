@@ -5,4 +5,4 @@ Here's how the game works
 3. After each roll, each player can choose to roll again or hold already accumulated points
 4. If a player chooses to hold his/her points, active mode transfers to the next player
 5. If a player rolls a 1, all his accumulated points for that turn is lost and play is transferred to the next player, hence the need to keep rolling with caution 😂
-6. First player to accumulated 100 points wins the game. Have fun.
+6. First player to accumulate 100 points wins the game. Have fun.
