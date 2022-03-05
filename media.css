@@ -1,0 +1,161 @@
+@media (max-width: 75em) {
+  .btn--hold,
+  .btn--roll {
+    /* width: 12rem; */
+    padding: 1.5rem 3rem;
+    /* font-size: 1.3rem; */
+  }
+}
+
+@media (max-width: 65em) {
+  main {
+    width: 80rem;
+    height: 55rem;
+  }
+}
+
+@media (max-width: 55em) {
+  main {
+    width: 60rem;
+    height: 38rem;
+  }
+  section {
+    width: 50%;
+  }
+  .dice {
+    height: 6rem;
+    left: 50%;
+  }
+  .btn--new {
+    left: 50%;
+    padding: 0.4rem 1.5rem;
+    top: 3rem;
+  }
+
+  .btn--roll,
+  .btn--hold {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .btn--roll {
+    top: 27.5rem;
+  }
+  .btn--hold {
+    top: 32.5rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .score {
+    font-size: 4rem;
+  }
+  .current {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 6rem;
+
+    text-align: center;
+  }
+  .current,
+  .current-label,
+  .current-score {
+    margin: 0;
+  }
+
+  .current-label,
+  .current-score {
+    padding: 0;
+  }
+  .current-score {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .btn--hold,
+  .btn--roll {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 40em) {
+  main {
+    width: 45rem;
+    height: 30rem;
+  }
+  .btn--new {
+    padding: 0.25rem 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .dice {
+    height: 4rem;
+    top: 12rem;
+  }
+  .name {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    width: 8rem;
+  }
+  .score {
+    font-size: 2.5rem;
+  }
+  .current {
+    width: 12rem;
+  }
+  .btn--roll,
+  .current-label {
+    font-size: 1.5rem;
+  }
+
+  .btn--roll,
+  .btn--hold {
+    top: 22.5rem;
+    padding: 0.4rem 1.5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: center;
+    width: 15rem;
+  }
+  .btn--roll {
+    left: 30%;
+  }
+  .btn--hold {
+    width: 15rem;
+    left: 70%;
+  }
+}
+@media (max-width: 28em) {
+  main {
+    width: 40rem;
+    height: 35rem;
+  }
+  .btn--roll,
+  .btn--hold {
+    top: 28.5rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    width: 15rem;
+    font-size: 1.5rem;
+    position: absolute;
+  }
+  .btn--roll {
+    left: 30%;
+  }
+  .btn--hold {
+    left: 70%;
+  }
+}
+
+@media (max-width: 25em) {
+  .btn--hold,
+  .btn--roll {
+    width: 12rem;
+    padding: 1rem 0.5rem;
+    font-size: 1.3rem;
+  }
+}
